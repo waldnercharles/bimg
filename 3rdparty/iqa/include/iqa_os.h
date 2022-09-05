@@ -56,7 +56,7 @@
     #define NAN (*(const float *) __nan) /**< Defined in C99 (Windows is C99) */
 #endif
 
-#define IQA_EXPORT __declspec(dllexport)
+#define IQA_EXPORT
 
 #else /* !Windows */
 
